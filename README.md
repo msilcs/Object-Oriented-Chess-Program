@@ -1,1 +1,1 @@
-# Object-Oriented-Chess-Program
+# Object-Oriented Chess Program
