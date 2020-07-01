@@ -17,14 +17,17 @@ Entering "pause" displays a pause menu. Possible inputs are then "r" to return t
 
 
 Typing "turn _x_" will display the piece moved and its start and end positions for turn number _x_, providing _x_ is a valid turn number.
+
 <img src = "Demo images/Turn viewer.png" alt = "Turn viewer" width = "450" />
 
 
 To perform a castling manoeuvre, "castle " should be typed followed by the position of the unmoved rook (e.g. "a1") to be used in the castle. This is only possible if the king and rook have not moved and the spaces between them are unoccupied.
+
 <img src = "Demo images/Castling example.png" alt = "Castling example" width = "900" />
 
 
 If a pawn reaches the opposite side of the board, it is promoted. A template function is called in order to swap the pawn for a new piece of the chosen type. To choose the piece type, the player is prompted to enter either "queen", "bishop", "knight" or "rook". 
+
 <img src = "Demo images/Pawn promotion example.png" alt = "Pawn promotion example" width = "450" />
 
 
